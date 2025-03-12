@@ -7,7 +7,7 @@ THICKNESS = 0.00008
 # 1. Calculate the thickness using the exponentiation operator (t_43 = t_0 * 2^43)
 folded_thickness = THICKNESS * (2 ** 43)
 
-# Output the result in meters and kilometers
+# Unit conversion to Output the result in meters and kilometers
 print("Thickness after 43 folds: {:.2f} meters".format(folded_thickness))
 print("Thickness after 43 folds: {:.2f} kilometers".format(folded_thickness / 1000))
 
